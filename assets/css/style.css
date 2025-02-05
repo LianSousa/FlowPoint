@@ -1,5 +1,5 @@
 :root {
-  --verde-primario: #006633;
+  --vermelho: #c50000;
   --branco: #fff;
 }
 
@@ -18,17 +18,17 @@ html, body{
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  background-color: var(--verde-primario);
+  background-color: var(--vermelho);
   color: var(--branco);
 }
 .navbar-nav .nav-item .nav-link {
   padding-top: 20px;
   padding-bottom: 20px;
   text-transform: uppercase;
-  color: var(--verde-primario);
+  color: var(--vermelho);
 }
 .navbar {
-  border-bottom: 7px solid var(--verde-primario);
+  border-bottom: 7px solid var(--vermelho);
 }
 /*Aplica este codigo quando a tela vai até 990px*/
 @media (max-width: 990px) {
@@ -58,7 +58,7 @@ section#home{
 
 /* Sessão Sobre */
 section#sobre{
-  background-color: var(--verde-primario);
+  background-color: var(--vermelho);
   color: var(--branco);
 }
 
