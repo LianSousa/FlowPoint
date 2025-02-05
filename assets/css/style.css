@@ -1,6 +1,7 @@
 :root {
   --vermelho: #c50000;
   --branco: #fff;
+  --preto: #000;
 }
 
 html, body{
@@ -30,12 +31,14 @@ html, body{
 .navbar {
   border-bottom: 7px solid var(--vermelho);
 }
+
 /*Aplica este codigo quando a tela vai até 990px*/
 @media (max-width: 990px) {
   .navbar-nav .nav-item .nav-link {
     padding: 5px;
   }
 }
+
 /*Aplica este codigo quando a tela vai DEPOIS 990px*/
 @media (min-width: 990px) {
 
@@ -45,10 +48,17 @@ html, body{
 section#home{
    height: 80%;
    color: var(--branco);
+   font-family: "Kanit", serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: x-large;
 }
 
+
+
+
 .parallax{
-  background-image: url("../imagens/bg-inicio.jpg");
+  background-image: url("../image/fundo\ \ home\ 2.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
