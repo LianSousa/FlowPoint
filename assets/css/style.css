@@ -2,6 +2,8 @@
   --vermelho: #c50000;
   --branco: #fff;
   --preto: #000;
+  --preto2: #191919;
+  --cinza: #292929;
 }
 
 html, body{
@@ -48,14 +50,22 @@ html, body{
 section#home{
    height: 80%;
    color: var(--branco);
-   font-family: "Kanit", serif;
-   font-weight: 500;
-   font-style: normal;
-   font-size: x-large;
 }
 
+section#home h2{
+  font-family: "Kanit", serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 104px;
+}
 
-
+section#home span{
+  font-family: "Kanit", serif;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--vermelho);
+  font-size: 104px;
+}
 
 .parallax{
   background-image: url("../image/fundo\ \ home\ 2.png");
@@ -68,7 +78,7 @@ section#home{
 
 /* Sessão Sobre */
 section#sobre{
-  background-color: var(--vermelho);
+  background-color: var(--preto2);
   color: var(--branco);
 }
 
