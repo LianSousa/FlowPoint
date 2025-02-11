@@ -48,7 +48,7 @@ html, body{
 
 /* Section Home */
 section#home{
-   height: 80%;
+   height: 100%;
    color: var(--branco);
 }
 
@@ -89,4 +89,8 @@ section#home-itens::after{
   left: calc(50% - 3.125em);
   border: 3.125em solid var(--branco);
   border-color: var(--branco) transparent transparent transparent;
+}
+
+video{
+  width: 100%;
 }
