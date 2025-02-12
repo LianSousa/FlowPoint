@@ -85,7 +85,7 @@ section#sobre{
 section#servicos::after{
   content: "";
   position: relative;
-  bottom: -100px;
+  bottom: -50px;
   left: calc(50% - 3.125em);
   border: 3.125em solid var(--branco);
   border-color: var(--branco) transparent transparent transparent;
@@ -100,6 +100,7 @@ video{
 section#servicos{
   height: 100%;
   color: var(--preto2);
+  margin-bottom: 600px;
 }
 
 section#servicos span{
@@ -110,3 +111,23 @@ section#servicos span{
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+/* Sessão localização */
+
+section#localizacao{
+  height: 100%;
+  color: var(--vermelho);
+  background-color: var(--preto2);
+}
+
+section#localizacao span{
+  width: 40%;
+  height: 5px;
+  display: block;
+  background-color: var(--vermelho);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Sessão Locais de Atendimento */
+
