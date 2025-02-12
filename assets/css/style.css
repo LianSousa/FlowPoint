@@ -82,7 +82,7 @@ section#sobre{
   color: var(--branco);
 }
 
-section#home-itens::after{
+section#servicos::after{
   content: "";
   position: relative;
   bottom: -100px;
@@ -93,4 +93,20 @@ section#home-itens::after{
 
 video{
   width: 100%;
+}
+
+/* Sessão Serviçoas */
+
+section#servicos{
+  height: 100%;
+  color: var(--preto2);
+}
+
+section#servicos span{
+  width: 40%;
+  height: 5px;
+  display: block;
+  background-color: var(--preto);
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
