@@ -85,7 +85,8 @@ section#sobre{
 section#servicos::after{
   content: "";
   position: relative;
-  bottom: -270px;
+  bottom: -260px;
+  /* bottom: -270px */
   left: calc(50% - 3.125em);
   border: 3.125em solid var(--branco);
   border-color: var(--branco) transparent transparent transparent;
@@ -95,15 +96,14 @@ video{
   width: 100%;
 }
 
-/* Sessão Serviçoas */
+/* Sessão Serviços */
 
-section#servicos{
+section#servicos {
   height: 100%;
   color: var(--preto2);
-  margin-bottom: 600px;
 }
 
-section#servicos span{
+section#servicos span {
   width: 40%;
   height: 5px;
   display: block;
@@ -111,6 +111,57 @@ section#servicos span{
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+section#servicos .card-custom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--preto);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+.carousel-control-prev::before {
+  content: '<';
+  font-size: 24px;
+  color: var(--branco);
+}
+
+.carousel-control-next::before {
+  content: '>';
+  font-size: 24px;
+  color: var(--branco);
+}
+
+.carousel-control-prev {
+  left: -60px;
+}
+
+.carousel-control-next {
+  right: -60px;
+}
+
 
 /* Sessão localização */
 
